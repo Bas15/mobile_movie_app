@@ -26,6 +26,7 @@ export default function Index() {
           paddingBottom: 10,
         }}
       >
+        {/* moeci */}
         <Image source={icons.logo} className="w-12 h-10 mt-20 mb-5 mx-auto" />
         {moviesLoading ? (
           <ActivityIndicator
